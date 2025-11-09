@@ -1,17 +1,1 @@
-—Phishing attacks continue to evolve, requiring so
-phisticated detection mechanisms that can adapt to diverse
- data sources and processing constraints. This paper presents a
- comparative evaluation of machine learning models for phishing
- detection across two contrasting datasets: a structured, pre
-processed benchmark dataset and a raw multimodal dataset
- containing HTML, CSS, and image data. We evaluate classical
- ML, ensemble, and deep learning approaches on these datasets to
- understand how data quality, preprocessing effort, and modality
- diversity influence detection performance. Our results show that
- XGBoost achieves 96.41% accuracy on the structured dataset,
- while LightGBM reaches 93.46% on the raw multimodal dataset.
- Feature importance analysis reveals external service-based fea
-tures as key discriminators in structured data, while multimodal
- integration provides complementary signals despite increased
- complexity. These findings offer practical insights for deploying
- phishing detection systems under varying resource constraints.
+Phishing attacks continue to evolve, requiring sophisticated detection mechanisms that can adapt to diverse data sources and processing constraints. This paper presents a comparative evaluation of machine learning models for phishing detection across two contrasting datasets: a structured, preprocessed benchmark dataset and a raw multimodal dataset containing HTML, CSS, and image data. We evaluate classical ML, ensemble, and deep learning approaches on these datasets to understand how data quality, preprocessing effort, and modality diversity influence detection performance. Our results show that XGBoost achieves 96.41% accuracy on the structured dataset, while LightGBM reaches 93.46% on the raw multimodal dataset. Feature importance analysis reveals external service-based features as key discriminators in structured data, while multimodal integration provides complementary signals despite increased complexity. These findings offer practical insights for deploying phishing detection systems under varying resource constraints.
